@@ -27,4 +27,4 @@ jobs:
       
       - name: Inspect
         run: |
-          docker image inspect etcmc:latest
+          docker image inspect holybaechu/etcmc:latest
