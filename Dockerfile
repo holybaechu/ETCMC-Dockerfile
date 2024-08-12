@@ -4,7 +4,9 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
     curl \
-    unzip
+    unzip \
+    gcc \
+    python3-dev
 
 RUN mkdir ETCMC
 
