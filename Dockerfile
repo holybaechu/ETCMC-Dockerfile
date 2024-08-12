@@ -11,7 +11,8 @@ RUN apt-get update && apt-get install -y \
 
 RUN mkdir ETCMC
 
-RUN curl -o ETCMC_Linux.zip https://github.com/Nowalski/ETCMC_Software/releases/download/Setup%2FWindows/ETCMC_Linux.zip
+RUN curl -o ./ETCMC_Linux.zip https://github.com/Nowalski/ETCMC_Software/releases/download/Setup%2FWindows/ETCMC_Linux.zip
+RUN ls
 RUN unzip ETCMC_Linux.zip -d ETCMC
 
 RUN chmod -R 777 ETCMC
