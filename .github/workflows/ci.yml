@@ -24,7 +24,3 @@ jobs:
         with:
           push: true
           tags: holybaechu/etcmc:latest
-      
-      - name: Inspect
-        run: |
-          docker image inspect holybaechu/etcmc:latest
